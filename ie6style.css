@@ -1,0 +1,6 @@
+#categories ul li a:link,#categories ul li a:visited, #categories ul li a:active {
+border-left: 1px solid #176FB3 !important;
+border-right: 1px solid #24D4FA !important;
+}
+
+.nav ul {background-image: none !important;}

@@ -1,0 +1,46 @@
+/*
+* jQuery UI CSS Framework
+* Copyright (c) 2009 AUTHORS.txt (http://jqueryui.com/about)
+* Dual licensed under the MIT (MIT-LICENSE.txt) and GPL (GPL-LICENSE.txt) licenses.
+* To view and modify this theme, visit http://jqueryui.com/themeroller/?ffDefault=Arial,%20sans-serif&fwDefault=normal&fsDefault=12px&cornerRadius=0px&bgColorHeader=F5F5F5&bgTextureHeader=04_highlight_hard.png&bgImgOpacityHeader=50&borderColorHeader=DBDFE4&fcHeader=4E4B4B&iconColorHeader=0073ea&bgColorContent=ffffff&bgTextureContent=01_flat.png&bgImgOpacityContent=75&borderColorContent=DBDFE4&fcContent=4E4B4B&iconColorContent=3493C6&bgColorDefault=f6f6f6&bgTextureDefault=03_highlight_soft.png&bgImgOpacityDefault=100&borderColorDefault=dddddd&fcDefault=438BC8&iconColorDefault=666666&bgColorHover=438BC8&bgTextureHover=03_highlight_soft.png&bgImgOpacityHover=25&borderColorHover=438BC8&fcHover=ffffff&iconColorHover=ffffff&bgColorActive=ffffff&bgTextureActive=02_glass.png&bgImgOpacityActive=65&borderColorActive=dddddd&fcActive=0073ea&iconColorActive=454545&bgColorHighlight=ffffff&bgTextureHighlight=01_flat.png&bgImgOpacityHighlight=55&borderColorHighlight=cccccc&fcHighlight=444444&iconColorHighlight=0073ea&bgColorError=ffffff&bgTextureError=01_flat.png&bgImgOpacityError=55&borderColorError=438BC8&fcError=222222&iconColorError=438BC8&bgColorOverlay=eeeeee&bgTextureOverlay=01_flat.png&bgImgOpacityOverlay=0&opacityOverlay=80&bgColorShadow=aaaaaa&bgTextureShadow=01_flat.png&bgImgOpacityShadow=0&opacityShadow=60&thicknessShadow=4px&offsetTopShadow=-4px&offsetLeftShadow=-4px&cornerRadiusShadow=0px
+*/
+
+
+/* Component containers
+----------------------------------*/
+.ui-widget { font-family: Arial, sans-serif; font-size: 12px; }
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-family: Arial, sans-serif; font-size: 1em; }
+.ui-widget-content { background: #F5F5F5 none repeat scroll 0 0; color: #4E4B4B; }
+.ui-widget-content a:link, .ui-widget-content a:visited, .ui-widget-content a:active { color: #0073EA; text-decoration: none;}
+.ui-widget-content a:hover { color: #0073EA; text-decoration: underline;}
+.ui-widget-header { background:#F5F5F5 none repeat scroll 0 0; border-bottom:1px solid #DBDFE4; color:#4E4B4B; font-weight:bold; }
+.ui-widget-header a { color: #4E4B4B; }
+
+/* Interaction states
+----------------------------------*/
+.ui-state-default, .ui-widget-content .ui-state-default { background:#F5F5F5 none repeat scroll 0 0; border:1px solid #DBDFE4; color:#4E4B4B; font-weight: normal; outline: none; }
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { color: #4E4B4B; text-decoration: none; outline: none; }
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus { border: 1px solid #438BC8; background: #438BC8; font-weight: normal; color: #ffffff; outline: none; }
+.ui-state-hover a, .ui-state-hover a:hover { color: #ffffff; text-decoration: none; outline: none; }
+.ui-state-active, .ui-widget-content .ui-state-active { border: 1px solid #dddddd; background: #ffffff; font-weight: normal; color: #0073ea; outline: none; }
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { color: #0073ea; outline: none; text-decoration: none; }
+
+/* Interaction Cues
+----------------------------------*/
+.ui-state-highlight, .ui-widget-content .ui-state-highlight {border: 1px solid #cccccc; background: #ffffff; color: #444444; }
+.ui-state-highlight a, .ui-widget-content .ui-state-highlight a { color: #444444; }
+.ui-state-error, .ui-widget-content .ui-state-error {border: 1px solid #438BC8; background: #ffffff; color: #222222; }
+.ui-state-error a, .ui-widget-content .ui-state-error a { color: #222222; }
+.ui-state-error-text, .ui-widget-content .ui-state-error-text { color: #222222; }
+.ui-state-disabled, .ui-widget-content .ui-state-disabled { opacity: .35; filter:Alpha(Opacity=35); background-image: none; }
+.ui-priority-primary, .ui-widget-content .ui-priority-primary { font-weight: bold; }
+.ui-priority-secondary, .ui-widget-content .ui-priority-secondary { opacity: .7; filter:Alpha(Opacity=70); font-weight: normal; }
+
+/* Overlays */
+.ui-widget-overlay { background: #eeeeee; opacity: .80;filter:Alpha(Opacity=80); }
+.ui-widget-shadow { margin: -4px 0 0 -4px; padding: 4px; background: #aaaaaa; opacity: .60;filter:Alpha(Opacity=60); -moz-border-radius: 0px; -webkit-border-radius: 0px; }
+
+/* Estilos de listas | a mano */
+
+.popular { margin:0; padding:0 0 0 20px; }
+#tabs-1 ul li, #tabs-2 ul li, #tabs-3 ul li, #tabs-4 ul li, #tabs-5 ul li, #tabs-6 ul li  { list-style-type:decimal; margin:0; padding:5px 0; border-bottom:1px solid #E8E8E8;}
